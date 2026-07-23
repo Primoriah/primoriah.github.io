@@ -78,3 +78,39 @@ nav a:hover {
     background: #D4AF37;
     transform: translateY(-3px);
 }
+.collection {
+    padding: 100px 60px;
+}
+
+.collection h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    padding: 30px;
+
+    background: #1b1b1b;
+    border: 1px solid #333;
+    border-radius: 10px;
+
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    border-color: #D4AF37;
+}
+
+.card h3 {
+    margin-top: 0;
+}
