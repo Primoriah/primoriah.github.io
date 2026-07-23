@@ -29,10 +29,14 @@ nav ul {
     padding: 0;
 }
 
-nav li {
-    nav li {
-    cursor: pointer;
+nav a {
+    color: white;
+    text-decoration: none;
     transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #D4AF37;
 }
 
 nav li:hover {
