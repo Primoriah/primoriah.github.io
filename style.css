@@ -68,3 +68,12 @@ button {
     cursor: pointer;
     font-size: 16px;
 }
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #D4AF37;
+}
